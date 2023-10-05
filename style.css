@@ -271,7 +271,7 @@ body {
     min-width:300px;
     text-align: center;
     padding: var(--sp-l);
-    margin-block: 7rem;
+    margin-bottom: 3rem;
 }
 
 .intro__title {
@@ -313,6 +313,7 @@ body {
             "title img"
             "subtitle img";
         grid-template-columns: max-content min-content ;
+        margin-block: 6rem;
     }
     
     .intro__image {
