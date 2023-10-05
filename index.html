@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahdi Karimian Portfolio Website</title>
+    <!-- Normalise -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript -->
+    <script src="/script.js" defer></script>
+</head>
+<body>
+   <div class="container">
+       <header class="header">
+            <div class="logo">
+                <a href="#"><img src="/img/Portfolio logo JPG.jpg" alt=""></a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"> <i class="fa-solid fa-bars"></i></span>
+            </button>
+            <nav class="nav hidden">
+                <div class="X-sign"> <i class=" fa-solid fa-xmark"></i></div>
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home">Home</a></li>
+                    <li class="nav__item"><a href="#services">My services</a></li>
+                    <li class="nav__item"><a href="#about">About me</a></li>
+                    <li class="nav__item"><a href="#my-work">My work</a></li>
+                    <li class="nav__item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+       </header class="header">
+       <!-- Introduction -->
+       <section class="intro" id="home">
+            <h1 class="section__title intro__title">
+                Hi, I am <strong class="intro__title--name"> Mahdi Karimian</strong>
+            </h1>
+            <p class="section__subtitle intro__subtitle">Front-end developer</p>
+            <div class="intro__image ">
+                <img src="/img/Mahdi Karimian portrait home.jpg" alt="mahdi karimian picture"></div>
+       </section>
+       <!-- My services -->
+       <section class="my-services" id="services">
+            <h2 class="section__title section__title-services">What I do </h2>
+            <div class="services">
+                <div class="service">
+                    <h3 class="service__title">Website Optimization and Performance Enhancement</h3>
+                    <p class="service-subtitle">As a junior web developer, I specialize in optimizing existing websites for speed, responsiveness, and overall user experience. I analyze websites to identify bottlenecks, optimize code, compress images, and implement responsive design techniques. My goal is to enhance website performance, ensuring fast loading times and smooth navigation. By providing this service, I help companies retain visitors, improve search engine rankings, and boost user satisfaction.</p>
+                </div><!-- End of service -->
+       
+                <div class="service">
+                    <h3 class="service__title">Customized Website Development</h3>
+                    <p class="service-subtitle">I offer tailored website development services to businesses, creating unique and user-friendly online platforms. By understanding the specific needs of each company, I design and develop customized websites from scratch. I utilize the latest technologies and frameworks to build responsive, visually appealing, and functional websites that align with the client’s brand identity. Whether it's an e-commerce site, a portfolio, or a corporate platform, I ensure that the website not only meets but exceeds the client's expectations.</p>
+                </div> <!-- End of service -->
+       
+                <div class="service">
+                    <h3 class="service__title">User Experience (UX) Enhancement</h3>
+                    <p class="service-subtitle">I specialize in optimizing the user experience of websites, focusing on intuitive navigation, seamless interactions, and visually appealing designs. By conducting user research and analyzing user behavior, I identify pain points and areas for improvement. I then implement user-centered design principles, create wireframes, and design prototypes to enhance the overall user journey. With a keen eye for detail and a commitment to user satisfaction, I craft websites that not only look great but also provide an effortless and enjoyable experience for visitors. By enhancing UX, I help companies increase user engagement, reduce bounce rates, and ultimately drive conversions.</p>
+                </div> <!-- End of service -->
+            </div> <!-- End of services -->
+       </section>
+
+       <!-- About me -->
+       <section class="about-me" id="about">
+            <div class="section__detail-about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Frontend Developer to be!</p>
+                <p class="about-me__body">I have dedicated myself to mastering the art of front-end development, focusing on creating engaging digital experiences. I've learned HTML, CSS, JavaScript, and various frameworks to build visually appealing and user-friendly websites. My journey isn't just about technical knowledge; it's about blending design and functionality seamlessly. I stay updated with the latest trends, ensuring my solutions are always cutting-edge.</p>
+            </div>
+            
+            <div class="about-me__image">
+                <img src="img/mahdi karimian about.jpg" alt="mahdi karimian picture">
+            </div>
+
+       </section>
+       <!-- My Work -->
+            <!-- My Work -->
+            <section id="my-work" class="my-work media-scroller " id="work">
+                <h2 class="section__title section__title-my-work">My work</h2>
+                <p class="section__subtitle section__subtitle__my-work">These are my mini projects in Github.</p>
+
+               
+       
+                <div class="portfolio snaps-inline">
+                    <a href="https://github.com/Mahdii-Kariimiian/tip-calculator-app-main" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/tip calculator empty input.png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Tip calculator</p>
+                    </a>
+                    
+                    <a href="https://github.com/Mahdii-Kariimiian/advice-generator-app-main" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/Advice generator app.png" alt="" class="portfolio__img">
+                        <p class="portfolio__detail hidden-visibility">Advice Generator</p>
+                    </a>
+                        
+                    <a href="https://github.com/Mahdii-Kariimiian/Alarm-clock" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/Alarm clock.png" alt="" class="portfolio__img">
+                        <p class="portfolio__detail hidden-visibility">Alarm clock</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/age-calculator-app-main" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/calculate age.png" alt="" class="portfolio__img">
+                        <p class="portfolio__detail hidden-visibility">Age Calculator</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/calculator" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/calculator.png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Calculator</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/interactive-card-details" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/interactive card details.png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Interactive Card detail</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/To-Do-List-/tree/main" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/to do list screen shot .png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">To Do List</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/social-proof-section" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/social proof section.png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Social proof section</p>
+                    </a>
+       
+                    <a href="https://github.com/Mahdii-Kariimiian/chat-app-css-illustration-master/tree/main" class="portfolio__item">
+                        <img class="portfolio__img" src="img/screenshots/chat app css .png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Chat app / CSS master</p>
+                    </a>
+
+                    <a href="#" class="portfolio__item">
+                        <img class="portfolio__img" src="img/Screenshot Advice generator app.png" alt="" class="portfolio__img">
+                         <p class="portfolio__detail hidden-visibility">Advice Generator App</p>
+                    </a>
+       
+                    
+                </div>
+            </section>
+       
+       
+            <!-- Footer -->
+            <footer id="contact" class="footer">
+                <!-- replace with your own email address -->
+                <a href="mailto:mahdii.kariimiian@gmail.com" class="footer__link">Contact me</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/mahdi-karimian-116643273">
+                            <i aria-label="linkedin"  class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/Mahdii-Kariimiian">
+                            <i aria-label="github" class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://twitter.com">
+                            <i arialabel="twitter" class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </footer>
+   </div>
+</body>
+</html>
