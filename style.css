@@ -80,10 +80,10 @@ select {
     --fw-reg: 300; 
     --fw-bold: 900;
     /* Font color */
-    --clr-bg: #fff;
-    --clr-dark: #242424;
-    --cl-accent: #00ffffc2;
-    --cl-accent-blur: #00ffffb3;
+    --clr-bg: #B4DDDC;
+    --clr-dark: #191919;
+    --cl-accent: #084C41;
+    --cl-accent-blur: #084c4197;
     --cl-blue:#003171ff;
     /* Font size */
     --fs-h1: 3rem;
@@ -272,6 +272,7 @@ body {
     text-align: center;
     padding: var(--sp-l);
     margin-bottom: 3rem;
+    
 }
 
 .intro__title {
@@ -293,7 +294,7 @@ body {
     letter-spacing: var(--sp-Xs);
     background-color: var(--cl-accent);
     margin-bottom: var(--sp-XXl);
-    padding: var(--sp-Xs);
+    padding: var(--sp-m);
     box-shadow: 5px 10px 20px var(--clr-dark);
 }
 
@@ -302,6 +303,7 @@ body {
     margin: var(--sp-Xl);
     max-width: 350px;
     margin: 0 auto;
+    clip-path: polygon(0 0, 88% 0, 100% 100%, 0% 100%);
 }
 
 @media (min-width:650px) {
@@ -313,7 +315,9 @@ body {
             "title img"
             "subtitle img";
         grid-template-columns: max-content min-content ;
-        margin-block: 6rem;
+        padding-top: 7rem;
+        padding-bottom: 12rem;
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0% 100%);
     }
     
     .intro__image {
@@ -346,8 +350,11 @@ body {
     text-align: center;
     background: var(--clr-dark);
     color: var(--clr-bg);
-    padding: var(--sp-l);
+    padding-inline: var(--sp-l);
+    padding-top: var(--sp-XXl);
     padding-bottom: var(--sp-XXXl);
+    margin-top: -7vw;
+    clip-path: polygon(0 5vw, 100% 0, 100% 100%, 0% calc(100% - 5vw));
 }
 
 .section__title-services {
@@ -371,7 +378,7 @@ body {
     margin-block: var(--sp-Xl);
 }
 
-.services__btn {
+/* .services__btn {
     display: block;
     text-decoration: none;
     background: var(--cl-accent);
@@ -379,7 +386,7 @@ body {
     padding-inline: var(--sp-XXXl);
     padding-block: var(--sp-Xs);
     margin: var(--sp-XXl);
-}
+} */
 
 @media(min-width: 950px) {
     .services {
@@ -399,6 +406,7 @@ body {
 .about-me {
     text-align: center;
     padding: var(--sp-l);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
 }
 
 .section__title--about {
